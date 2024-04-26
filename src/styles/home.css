@@ -1,0 +1,230 @@
+body {
+    background-color: var(--secondary-color);
+}
+.center {
+    text-align: center;
+}
+
+.appbar-container.appnav {
+    position: relative;
+    display: flex;
+    width: 100vw;
+    padding: 0 2rem;
+    justify-content: space-around;
+    background-color: var(--secondary-color);
+    box-shadow: none;
+    border: none;
+}
+
+.app-logo#logo1 {
+    width: 261.19px;
+    height: 125.11px;
+    margin-top: 72.44px;
+}
+
+.appbar.nav-list {
+    color: #B9751C;
+
+}
+/*COMMON */
+.dark-yellow {
+    color: var(--dark-yellow);
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.red {
+    color: var(--primary-color);
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 700;
+    margin-top: -2rem;
+}
+/* GRID */
+.flex {
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+.align {
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container {
+    background-color: var(--secondary-color);
+    color: white;
+    width: 100vw;
+    justify-content: space-around;
+    color: var(--primary-color);
+    align-items: center;
+}
+
+.grid-text {
+    flex-basis: 40%;
+}
+
+.grid-images-div {
+    flex-basis: 50%;
+}
+
+.grid-heading {
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 66px;
+}
+
+.register-btn {
+    width: 159px;
+    height: 47px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 26px 10px 26px;
+    gap: 10px;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.grid-features {
+    align-items: center;
+}
+
+.grid-single-feature {
+    flex-basis: 22%;
+    border-right: solid 2px var(--grey);
+    padding: 0 1rem;
+    align-self: center;
+    font-weight: 700;
+}
+
+.grid-icons {
+    width: 43px;
+    height: 43px;
+    margin-right: 5px;
+}
+.grid-images {
+    align-items: center;
+}
+.grid-leaf-image {
+    width: 266px;
+    height: 281.95px;
+}
+
+.grid-couple-image {
+    position: relative;
+    z-index: 10;
+    width: 654.27px;
+    height: 710px;
+    margin-left: -11rem;
+}
+
+.grid-lotus-image {
+    width: 196px;
+    height: 172px;
+    margin-left: -15rem;
+    align-self: start;
+    margin-top: 6rem;
+}
+
+.grid-images-div {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-elephant-image {
+    width: 202px;
+    height: 142px;
+    margin-top: -4rem;
+}
+
+/* SEARCH BAR */
+.search-div {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    width: 90vw;
+    margin: auto;
+    margin-top: -3rem;
+    border-radius: 0 0 1.5rem 1.5rem;
+    padding-bottom: 0.5rem;
+}
+.search-group-div {
+    width: 100%;
+    justify-content: space-around;
+}
+.search-cat {
+    flex-basis: 15%;
+    border-right: solid 1px var(--secondary-color);
+}
+.search-div h1 {
+    color: var(--light-yellow);
+}
+#search-btn {
+    background-color: var(--dark-yellow);
+    border-radius: 50%;
+    border: none;
+    height: 54px;
+    width: 54px;
+}
+.education-select-div {
+    flex-basis: 25%;
+}
+.select {
+    background-color: var(--dark-yellow);
+    height: 26px;
+    border: none;
+    border-radius: 16px;
+    margin-left: 10px;
+    color: white;
+}
+/*SPOTLIGHT */
+.spotlight-div{
+    padding: 2rem;
+    background-color: var(--secondary-color);
+}
+.spotlight-header-div {
+    flex-direction: column;
+    height: 283px;
+    align-items: flex-start;
+}
+.spotlight-card-slider {
+    flex-basis: 75%;
+    width: 50vw;
+}
+.spotlight-card-slider
+/*HORIZONTAL CARD*/
+div.success-stories-div {
+    width: 100vw;
+    background-color: var(--secondary-color);
+}
+.horizontal-card {
+    /* position: relative;
+    z-index: 0; */
+    width: 632px;
+    height: 342px;
+    background-color: var(--light-yellow);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 20px;
+}
+.horizontal-card img {
+    width: 280px;
+}
+
+.horizontal-card-text {
+    padding: 1rem
+}
+
+/* POSTER */
+.poster-div {
+    background-color: var(--white);
+}
+
+.poster-features {
+    margin-top: -6rem;
+}
+
+.horizontal-carousel {
+    display: flex;
+    justify-content: center;
+}
